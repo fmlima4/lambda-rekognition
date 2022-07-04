@@ -11,7 +11,7 @@ def detecta_faces():
             ExternalImageId='temporary_image',
             Image={
                 'S3Object': {
-                    'Bucket': 'diversos-felipe',
+                    'Bucket': '[SEU BUCKET]',
                     'Name': '_analise.png',
                 },
             },
