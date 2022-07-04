@@ -8,7 +8,7 @@ client = boto3.client('rekognition')
 
 def lista_imagens(): 
     imagens = []
-    bucket = s3.Bucket('diversos-felipe')
+    bucket = s3.Bucket('[SEU BUCKET]')
     for imagem in bucket.objects.all():
         imagens.append(imagem.key)
     # print (imagens)
